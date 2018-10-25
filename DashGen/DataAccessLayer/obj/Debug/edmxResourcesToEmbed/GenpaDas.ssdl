@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GenpaDashboardModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="GenpaDashboardModelStoreContainer">
+    <EntitySet Name="DashboardHistories" EntityType="GenpaDashboardModel.Store.DashboardHistories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DashboardSettings" EntityType="GenpaDashboardModel.Store.DashboardSettings" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GeneralConfig" EntityType="GenpaDashboardModel.Store.GeneralConfig" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Logs" EntityType="GenpaDashboardModel.Store.Logs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MailSettings" EntityType="GenpaDashboardModel.Store.MailSettings" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SettingLogs" EntityType="GenpaDashboardModel.Store.SettingLogs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="GenpaDashboardModel.Store.Users" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="DashboardHistories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ExpectedWaitingTimeCount" Type="int" Nullable="false" />
+    <Property Name="WaitedQueueCount" Type="int" Nullable="false" />
+    <Property Name="LongerWaitedTime" Type="int" Nullable="false" />
+    <Property Name="AvailAgenCount" Type="int" Nullable="false" />
+    <Property Name="SkillNo" Type="int" Nullable="false" />
+    <Property Name="ProcessingTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DashboardSettings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MaxExpectedWaitingTime" Type="int" Nullable="false" />
+    <Property Name="MaxWaitedQueueCount" Type="int" Nullable="false" />
+    <Property Name="MaxLongerWaitTime" Type="int" Nullable="false" />
+    <Property Name="AcdNos" Type="text" Nullable="false" />
+    <Property Name="SkillNos" Type="text" Nullable="false" />
+    <Property Name="MailFormat" Type="text" />
+    <Property Name="MailReceipts" Type="text" Nullable="false" />
+    <Property Name="MailSendingRepatInMinutes" Type="int" />
+    <Property Name="BoardDataRangeInHours" Type="int" />
+    <Property Name="BoardDataLastIntegralTime" Type="int" />
+    <Property Name="BoardDataIntervalCount" Type="int" />
+    <Property Name="ModifiedTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GeneralConfig">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ImagesPath" Type="nvarchar" MaxLength="255" />
+    <Property Name="ScreenPassAllow" Type="bit" />
+    <Property Name="ScreenPassTimeInterval" Type="int" />
+    <Property Name="TimeStartOfTheDay" Type="time" />
+    <Property Name="TimeAfternoonOfTheDay" Type="time" />
+    <Property Name="TimeEndOfTheDay" Type="time" />
+  </EntityType>
+  <EntityType Name="Logs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Result" Type="text" />
+    <Property Name="WorkedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="MailSettings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Host" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="Port" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="SSL" Type="bit" />
+    <Property Name="UseDefaultCredental" Type="bit" />
+    <Property Name="CredentalEmail" Type="nvarchar" MaxLength="255" />
+    <Property Name="CredentalPassword" Type="nvarchar" MaxLength="50" />
+    <Property Name="Priority" Type="nvarchar" MaxLength="50" />
+    <Property Name="ModifyDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SettingLogs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MailServer" Type="nvarchar" MaxLength="50" />
+    <Property Name="MailReceiver" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProcessResult" Type="nvarchar" MaxLength="512" />
+    <Property Name="MailPort" Type="nvarchar" MaxLength="50" />
+    <Property Name="RecordDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="50" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+</Schema>

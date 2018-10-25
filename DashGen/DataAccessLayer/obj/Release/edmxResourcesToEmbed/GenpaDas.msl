@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GenpaDashboardModelStoreContainer" CdmEntityContainer="GenpaDashboardEntities">
+    <EntitySetMapping Name="DashboardHistories">
+      <EntityTypeMapping TypeName="GenpaDashboardModel.DashboardHistories">
+        <MappingFragment StoreEntitySet="DashboardHistories">
+          <ScalarProperty Name="ProcessingTime" ColumnName="ProcessingTime" />
+          <ScalarProperty Name="SkillNo" ColumnName="SkillNo" />
+          <ScalarProperty Name="AvailAgenCount" ColumnName="AvailAgenCount" />
+          <ScalarProperty Name="LongerWaitedTime" ColumnName="LongerWaitedTime" />
+          <ScalarProperty Name="WaitedQueueCount" ColumnName="WaitedQueueCount" />
+          <ScalarProperty Name="ExpectedWaitingTimeCount" ColumnName="ExpectedWaitingTimeCount" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DashboardSettings">
+      <EntityTypeMapping TypeName="GenpaDashboardModel.DashboardSettings">
+        <MappingFragment StoreEntitySet="DashboardSettings">
+          <ScalarProperty Name="ModifiedTime" ColumnName="ModifiedTime" />
+          <ScalarProperty Name="BoardDataIntervalCount" ColumnName="BoardDataIntervalCount" />
+          <ScalarProperty Name="BoardDataLastIntegralTime" ColumnName="BoardDataLastIntegralTime" />
+          <ScalarProperty Name="BoardDataRangeInHours" ColumnName="BoardDataRangeInHours" />
+          <ScalarProperty Name="MailSendingRepatInMinutes" ColumnName="MailSendingRepatInMinutes" />
+          <ScalarProperty Name="MailReceipts" ColumnName="MailReceipts" />
+          <ScalarProperty Name="MailFormat" ColumnName="MailFormat" />
+          <ScalarProperty Name="SkillNos" ColumnName="SkillNos" />
+          <ScalarProperty Name="AcdNos" ColumnName="AcdNos" />
+          <ScalarProperty Name="MaxLongerWaitTime" ColumnName="MaxLongerWaitTime" />
+          <ScalarProperty Name="MaxWaitedQueueCount" ColumnName="MaxWaitedQueueCount" />
+          <ScalarProperty Name="MaxExpectedWaitingTime" ColumnName="MaxExpectedWaitingTime" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GeneralConfig">
+      <EntityTypeMapping TypeName="GenpaDashboardModel.GeneralConfig">
+        <MappingFragment StoreEntitySet="GeneralConfig">
+          <ScalarProperty Name="TimeEndOfTheDay" ColumnName="TimeEndOfTheDay" />
+          <ScalarProperty Name="TimeAfternoonOfTheDay" ColumnName="TimeAfternoonOfTheDay" />
+          <ScalarProperty Name="TimeStartOfTheDay" ColumnName="TimeStartOfTheDay" />
+          <ScalarProperty Name="ScreenPassTimeInterval" ColumnName="ScreenPassTimeInterval" />
+          <ScalarProperty Name="ScreenPassAllow" ColumnName="ScreenPassAllow" />
+          <ScalarProperty Name="ImagesPath" ColumnName="ImagesPath" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Logs">
+      <EntityTypeMapping TypeName="GenpaDashboardModel.Logs">
+        <MappingFragment StoreEntitySet="Logs">
+          <ScalarProperty Name="WorkedDate" ColumnName="WorkedDate" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MailSettings">
+      <EntityTypeMapping TypeName="GenpaDashboardModel.MailSettings">
+        <MappingFragment StoreEntitySet="MailSettings">
+          <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="CredentalPassword" ColumnName="CredentalPassword" />
+          <ScalarProperty Name="CredentalEmail" ColumnName="CredentalEmail" />
+          <ScalarProperty Name="UseDefaultCredental" ColumnName="UseDefaultCredental" />
+          <ScalarProperty Name="SSL" ColumnName="SSL" />
+          <ScalarProperty Name="Port" ColumnName="Port" />
+          <ScalarProperty Name="Host" ColumnName="Host" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SettingLogs">
+      <EntityTypeMapping TypeName="GenpaDashboardModel.SettingLogs">
+        <MappingFragment StoreEntitySet="SettingLogs">
+          <ScalarProperty Name="RecordDate" ColumnName="RecordDate" />
+          <ScalarProperty Name="MailPort" ColumnName="MailPort" />
+          <ScalarProperty Name="ProcessResult" ColumnName="ProcessResult" />
+          <ScalarProperty Name="MailReceiver" ColumnName="MailReceiver" />
+          <ScalarProperty Name="MailServer" ColumnName="MailServer" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="GenpaDashboardModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,41 @@
+﻿body {
+    background-image: url("images\avayaempatel.png");
+    background-color: #cccccc;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    background-color: white;
+    margin-top:14%;
+    padding:20px;
+    border-radius:10px;
+    border: 25px solid #ff00dc;
+    border: 15px solid white;
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);  
+}
+.centerHeadline {
+    margin-left: 32%;
+    margin-right: auto;
+    background-color: darkgoldenrod;
+    margin-top:5%;
+    padding:20px;
+    position:absolute;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    width: 32%;
+    z-index:-1;
+    font-family:Tahoma;
+    font-variant:small-caps;
+    font-stretch:expanded;
+}
+.floatRight {
+        float:right;
+        width: 70px;
+}
+.floatLeft {
+        float:right;
+}

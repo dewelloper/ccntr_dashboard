@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/EmpCMSGetData.CmsService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/EmpCMSGetData.CmsService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="RealTimeReportType1">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AbandoneCalls" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Acht" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentsInAcw" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentsInAux" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentsInCall" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AnsweredCalls" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Avail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AverageAcdTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AverageSpeedOfAnswer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ewt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OldestCall" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Other" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Queue" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RingTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StaffAgent" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RealTimeReportType1" nillable="true" type="tns:RealTimeReportType1" />
+  <xs:complexType name="ArrayOfRealTimeReportType2">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RealTimeReportType2" nillable="true" type="tns:RealTimeReportType2" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRealTimeReportType2" nillable="true" type="tns:ArrayOfRealTimeReportType2" />
+  <xs:complexType name="RealTimeReportType2">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AbandoneCalls" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AcdCalls" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AuxType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Extension" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RingTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SkillNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="State" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StateDuration" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RealTimeReportType2" nillable="true" type="tns:RealTimeReportType2" />
+  <xs:complexType name="ArrayOfRealTimeReportType3">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RealTimeReportType3" nillable="true" type="tns:RealTimeReportType3" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRealTimeReportType3" nillable="true" type="tns:ArrayOfRealTimeReportType3" />
+  <xs:complexType name="RealTimeReportType3">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AbandoneCalls" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AcdCalls" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AuxType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Extension" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RingTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SkillNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="State" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StateDuration" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RealTimeReportType3" nillable="true" type="tns:RealTimeReportType3" />
+  <xs:complexType name="HistoricalReportType1">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AbandoneCalls" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AnsweredCalls" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AverageAcdTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AverageSpeedOfAnswer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RingTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sl" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="HistoricalReportType1" nillable="true" type="tns:HistoricalReportType1" />
+</xs:schema>

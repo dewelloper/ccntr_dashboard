@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashGen", "DashGen\DashGen.csproj", "{037C5538-3C3C-45DD-8388-6A42094AD4CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{F3FE3E2A-FC4A-4BF7-A172-7991E80CA894}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{A126570D-2C23-4712-AEC3-BDD9516157C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{037C5538-3C3C-45DD-8388-6A42094AD4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037C5538-3C3C-45DD-8388-6A42094AD4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037C5538-3C3C-45DD-8388-6A42094AD4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037C5538-3C3C-45DD-8388-6A42094AD4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A126570D-2C23-4712-AEC3-BDD9516157C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A126570D-2C23-4712-AEC3-BDD9516157C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A126570D-2C23-4712-AEC3-BDD9516157C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A126570D-2C23-4712-AEC3-BDD9516157C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A126570D-2C23-4712-AEC3-BDD9516157C7} = {F3FE3E2A-FC4A-4BF7-A172-7991E80CA894}
+	EndGlobalSection
+EndGlobal

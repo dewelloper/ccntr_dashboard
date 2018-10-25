@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://192.168.93.93/CmsData/CmsData.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EmpCMSGetData" />
+  <xs:import schemaLocation="http://192.168.93.93/CmsData/CmsData.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/EmpCMSGetData.CmsService" />
+  <xs:element name="GetRealTimeReportType1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/EmpCMSGetData" minOccurs="0" name="cmsParameters" nillable="true" type="q1:CmsParameters" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRealTimeReportType1Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/EmpCMSGetData.CmsService" minOccurs="0" name="GetRealTimeReportType1Result" nillable="true" type="q2:RealTimeReportType1" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRealTimeReportType2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/EmpCMSGetData" minOccurs="0" name="cmsParameters" nillable="true" type="q3:CmsParameters" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRealTimeReportType2Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/EmpCMSGetData.CmsService" minOccurs="0" name="GetRealTimeReportType2Result" nillable="true" type="q4:ArrayOfRealTimeReportType2" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRealTimeReportType3">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/EmpCMSGetData" minOccurs="0" name="cmsParameters" nillable="true" type="q5:CmsParameters" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRealTimeReportType3Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/EmpCMSGetData.CmsService" minOccurs="0" name="GetRealTimeReportType3Result" nillable="true" type="q6:ArrayOfRealTimeReportType3" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetHistoricalReportType1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/EmpCMSGetData" minOccurs="0" name="cmsParameters" nillable="true" type="q7:CmsParameters" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetHistoricalReportType1Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/EmpCMSGetData.CmsService" minOccurs="0" name="GetHistoricalReportType1Result" nillable="true" type="q8:HistoricalReportType1" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

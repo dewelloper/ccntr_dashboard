@@ -1,0 +1,15 @@
+C:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\GenPaDashBoard\DashGen\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\GenPaDashBoard\DashGen\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+D:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\GenPaDashBoard\DashGen\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\GenPaDashBoard\DashGen\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\GenPaDashBoard\DashGen\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

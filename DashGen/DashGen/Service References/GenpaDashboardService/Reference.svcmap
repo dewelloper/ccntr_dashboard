@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7e0e698d-a9c7-41ed-952e-23072e69c5bc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://192.168.93.93/CmsData/CmsData.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CmsData.wsdl" MetadataType="Wsdl" ID="2345700a-e083-4210-9f74-9f77dc775e9d" SourceId="1" SourceUrl="http://192.168.93.93/CmsData/CmsData.svc?wsdl" />
+    <MetadataFile FileName="CmsData.xsd" MetadataType="Schema" ID="23e0bcba-5ed9-49d8-a036-92c403bd2bdd" SourceId="1" SourceUrl="http://192.168.93.93/CmsData/CmsData.svc?xsd=xsd0" />
+    <MetadataFile FileName="CmsData1.xsd" MetadataType="Schema" ID="0613c55f-f3fd-47aa-ac1d-b7a6e41c2a1d" SourceId="1" SourceUrl="http://192.168.93.93/CmsData/CmsData.svc?xsd=xsd1" />
+    <MetadataFile FileName="CmsData2.xsd" MetadataType="Schema" ID="ebf48acc-5438-4789-bd45-1bfb2ad40587" SourceId="1" SourceUrl="http://192.168.93.93/CmsData/CmsData.svc?xsd=xsd2" />
+    <MetadataFile FileName="CmsData3.xsd" MetadataType="Schema" ID="8ac4d0f7-5689-4f89-8026-a4d565a0687c" SourceId="1" SourceUrl="http://192.168.93.93/CmsData/CmsData.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

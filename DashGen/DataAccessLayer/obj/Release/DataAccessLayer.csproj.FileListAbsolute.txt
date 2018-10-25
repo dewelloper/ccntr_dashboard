@@ -1,0 +1,8 @@
+C:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Release\DataAccessLayer.dll.config
+C:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Release\DataAccessLayer.dll
+C:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+C:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Release\EntityFramework.dll
+C:\GenPaDashBoard\DashGen\DataAccessLayer\bin\Release\EntityFramework.xml
+C:\GenPaDashBoard\DashGen\DataAccessLayer\obj\Release\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\GenPaDashBoard\DashGen\DataAccessLayer\obj\Release\DataAccessLayer.dll
+C:\GenPaDashBoard\DashGen\DataAccessLayer\obj\Release\DataAccessLayer.pdb

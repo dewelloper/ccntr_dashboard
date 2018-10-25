@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5eeeedc8ab88413d81cd44adfd956fce" Name="Diagram1" >
+        <EntityTypeShape EntityType="GenpaDashboardModel.DashboardHistories" Width="1.5" PointX="11.630592522970677" PointY="14.629501126068412" />
+        <EntityTypeShape EntityType="GenpaDashboardModel.DashboardSettings" Width="1.5" PointX="1.1282900092789392" PointY="23.674862693843835" />
+        <EntityTypeShape EntityType="GenpaDashboardModel.GeneralConfig" Width="1.5" PointX="4.5769901743982873" PointY="29.878401516880096" />
+        <EntityTypeShape EntityType="GenpaDashboardModel.Logs" Width="1.5" PointX="9.7299932733783461" PointY="24.765285145847724" />
+        <EntityTypeShape EntityType="GenpaDashboardModel.MailSettings" Width="1.5" PointX="8.3689733465989" PointY="4.1844490189964176" />
+        <EntityTypeShape EntityType="GenpaDashboardModel.SettingLogs" Width="1.5" PointX="1.0909269215031188" PointY="2.2737778435804779" />
+        <EntityTypeShape EntityType="GenpaDashboardModel.Users" Width="1.5" PointX="3.1990863844748052" PointY="20.56351236466482" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
